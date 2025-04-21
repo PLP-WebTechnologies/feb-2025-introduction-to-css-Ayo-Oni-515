@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    margin: 2rem auto;
+    width: 70%;
+}
+
+#ocean-img {
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    height: 18.75rem;
+}
+
+.img-body {
+    display: flex;
+    margin-top: 0.5rem;
+    gap: 1.5rem;
+}
